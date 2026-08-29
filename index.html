@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>西那普斯项目控制中心</title>
+  <style>
+    body {
+      background: #111;
+      color: #eee;
+      font-family: sans-serif;
+      margin: 0;
+      padding: 24px;
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    h1 {
+      font-size: 1.6em;
+      border-bottom: 1px solid #333;
+      padding-bottom: 12px;
+    }
+    .card {
+      background: #1e1e1e;
+      border: 1px solid #333;
+      border-radius: 12px;
+      padding: 16px;
+      margin-bottom: 12px;
+    }
+    .status {
+      color: #9f0;
+    }
+    .stop {
+      background: #a00;
+      color: white;
+      border: none;
+      border-radius: 12px;
+      padding: 16px;
+      width: 100%;
+      font-size: 1.2em;
+      margin-top: 12px;
+    }
+  </style>
+</head>
+<body>
+  <h1>西那普斯项目控制中心</h1>
+
+  <div class="card">
+    <strong>系统状态</strong><br>
+    <span class="status">● 在线</span><br>
+    <small>最后更新时间：刚刚</small>
+  </div>
+
+  <div class="card">
+    <strong>模块状态</strong><br>
+    AI自我进化模块：在线<br>
+    机器人模块：未连接<br>
+    生命科学模块：在线<br>
+    全学科知识库：在线<br>
+  </div>
+
+  <div class="card">
+    <strong>最近记录</strong><br>
+    1. 创建项目仓库<br>
+    2. 添加README文件<br>
+    3. 创建首页原型
+  </div>
+
+  <button class="stop" onclick="alert('所有自动任务已暂停。')">停止</button>
+
+  <p style="color:#888; font-size:0.9em;">
+    这是西那普斯项目第一个可见原型。当前仅为静态页面，后续将接入真实功能。
+  </p>
+</body>
+      </html>
